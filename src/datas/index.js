@@ -90,25 +90,25 @@ export const table_01 = {
     items: [
         {
             id: 0,
-            title: 'Item 1',
+            title: 'Item 132',
             type: 0,
             discount: '$1'
         },
         {
             id: 2,
-            title: 'Item 2',
+            title: 'Item 23231',
             type: 0,
             discount: '$2'
         },
         {
             id: 33,
-            title: 'Item 33',
+            title: 'Item 44433',
             type: 1,
             discount: '$4'
         },
         {
             id: 69,
-            title: 'Item 69',
+            title: 'Item 629',
             type: 2,
             discount: '$10'
         }
@@ -138,28 +138,28 @@ export const table_02 = {
     items: [
         {
             id: 0,
-            title: 'Item 1',
+            title: 'Item 155555',
             type: 2,
-            discount: '$1',
+            discount: '$144',
             fourth: '???'
         },
         {
             id: 2,
-            title: 'Item 2',
+            title: 'Item 212512',
             type: 2,
-            discount: '$2',
+            discount: '$255',
             fourth: '!???'
         },
         {
             id: 33,
-            title: 'Item 33',
+            title: 'Item 335212',
             type: 3,
             discount: '$4',
             fourth: '!!???'
         },
         {
             id: 69,
-            title: 'Item 69',
+            title: 'Item 62139',
             type: 1,
             discount: '$10',
             fourth: '!!!!???'
@@ -194,7 +194,7 @@ export const table_03 = {
     items: [
         {
             id: 0,
-            title: 'Item 1',
+            title: 'Item 1241251',
             type: 3,
             discount: '$1',
             fourth: '???',
@@ -202,7 +202,7 @@ export const table_03 = {
         },
         {
             id: 2,
-            title: 'Item 2',
+            title: 'Item 235232',
             type: 3,
             discount: '$2',
             fourth: '!???',
@@ -210,7 +210,7 @@ export const table_03 = {
         },
         {
             id: 33,
-            title: 'Item 33',
+            title: 'Item 87933',
             type: 1,
             discount: '$4',
             fourth: '!!???',
@@ -218,7 +218,7 @@ export const table_03 = {
         },
         {
             id: 69,
-            title: 'Item 69',
+            title: 'Item 8869',
             type: 0,
             discount: '$10',
             fourth: '!!!!???',
