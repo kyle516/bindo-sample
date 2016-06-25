@@ -1,3 +1,3 @@
 # bindo-sample
 
-To start, do `npm start`.
+To start, do `npm install` then `npm start`.
