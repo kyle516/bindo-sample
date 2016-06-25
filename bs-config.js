@@ -12,6 +12,9 @@
  |
  |
  */
+
+var historyApiFallback = require('connect-history-api-fallback');
+
 module.exports = {
     "ui": {
         "port": 12001,
@@ -24,11 +27,11 @@ module.exports = {
     "watchOptions": {},
     "server": {
         "baseDir": "./dist",
-        "middleware": function(req, res, next){
+        "middleware": [ historyApiFallback(), function(req, res, next){
             // const timestamp = "[" + new Date().toISOString().replace(/T/, ' ').replace(/\..+/, '') + "] ";
             // console.log(timestamp + req.method + " " + req.originalUrl + " - " +  req.connection.remoteAddress + " - " + req.headers['user-agent']);
             next();
-        }
+        }]
     },
     "proxy": false,
     "port": 12000,

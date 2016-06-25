@@ -1,0 +1,29 @@
+@import '~styles/color';
+@import '~styles/common';
+
+.sidemenu {
+  color: $color-white;
+  a {
+    color: $color-white;
+    display: block;
+    text-decoration: none;
+  }
+}
+
+.sidemenu__list {
+  margin: 0;
+  dt {
+    padding: 10px 15px;
+  }
+  dd {
+    padding: 10px 15px;
+    margin: 0;
+    background: $color-secondary;
+    &:hover {
+      background: lighten($color-secondary, 10%);
+    }
+    &.is-hidden {
+      display: none;
+    }
+  }
+}

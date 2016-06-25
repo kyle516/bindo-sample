@@ -1,0 +1,12 @@
+@import '~styles/color';
+@import '~styles/common';
+
+
+.table {
+  width: 100%;
+  th {
+    background: $color-table-headline;
+    color: $color-white;
+    padding: 7px;
+  }
+}

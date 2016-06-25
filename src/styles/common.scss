@@ -1,0 +1,24 @@
+$left-column-width: 15%;
+
+body, html, #app {
+  width: 100%;
+  height: 100%;
+}
+
+#app {
+  position: relative;
+}
+
+.column-left {
+  float: left;
+  width: $left-column-width;
+}
+.column-right {
+  float: left;
+  width: 100% - $left-column-width;
+}
+.row:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
